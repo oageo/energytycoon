@@ -297,6 +297,8 @@ LRESULT CALLBACK LangChooserProc(HWND pWindowHandle, UINT pMessage, WPARAM wPara
 			lFile << "de";
 		else
 			lFile << "en";
+		else
+			lFile << "ja";
 
 		lFile.close();
 
@@ -360,6 +362,8 @@ int main(int, char**)
 		StrLoc::setLanguage(new LangDE());
 	else if(lLanguage == "en")
 		StrLoc::setLanguage(new LangEN());
+	else if(lLanguage == "ja")
+		StrLoc::setLanguage(new LangJA());
 
 	Audio::start();
 	Application lApplication;
