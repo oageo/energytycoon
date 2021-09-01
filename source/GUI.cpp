@@ -65,9 +65,11 @@ GUI::GUI(Ogre::RenderWindow *pWindow, Ogre::RenderSystem* pRenderSystem, Ogre::R
 
 	mISOToFormattedMapname["de"] = StrLoc::get()->Germany();
 	mISOToFormattedMapname["us"] = StrLoc::get()->USA();
+	mISOToFormattedMapname["ja"] = StrLoc::get()->Japan()
 
 	mFormattedToISOMapname[StrLoc::get()->Germany()] = "de";
 	mFormattedToISOMapname[StrLoc::get()->USA()] = "us";
+	mFormattedToISOMapname[StrLoc::get()->Japan()] = "ja";
 
 	if (pRestart) {
 		MyGUI::LayoutManager::getInstance().unloadLayout(mCurrentLayout);

@@ -129,7 +129,7 @@ public:
   Ogre::UTFString TooltipSpNotAvailable()
   { return Ogre::UTFString(L"You don't have access to this special action yet.\nBuild a headquarter building to access this."); }
   Ogre::UTFString TooltipSp1Img()
-  { return Ogre::UTFString(L"No employee training active"); }
+  { return Ogre::UTFString(L"全ての従業員は現在トレーニングをしていません。"); }
   Ogre::UTFString TooltipSp2Img()
   { return Ogre::UTFString(L"Illegal waste dumping active"); }
   Ogre::UTFString TooltipSp3ImgA()
@@ -199,31 +199,31 @@ public:
   Ogre::UTFString TooltipReNotAvailable()
   { return Ogre::UTFString(L"You don't have access to this upgrade yet.\nBuild a research center to access this."); }
   Ogre::UTFString TooltipMenu()
-  { return Ogre::UTFString(L"Go to main menu"); }
+  { return Ogre::UTFString(L"メインメニューへ"); }
   Ogre::UTFString TooltipMission()
-  { return Ogre::UTFString(L"Show mission goals"); }
+  { return Ogre::UTFString(L"目標を表示"); }
   Ogre::UTFString TooltipFinances()
-  { return Ogre::UTFString(L"Show finances"); }
+  { return Ogre::UTFString(L"財務状況を表示"); }
   Ogre::UTFString TooltipResearch()
-  { return Ogre::UTFString(L"Show research"); }
+  { return Ogre::UTFString(L"研究を表示"); }
   Ogre::UTFString TooltipCEO()
-  { return Ogre::UTFString(L"Go to CEOs office"); }
+  { return Ogre::UTFString(L"社長室へ"); }
   Ogre::UTFString TooltipTrade()
-  { return Ogre::UTFString(L"Show trade window"); }
+  { return Ogre::UTFString(L"交易画面を表示"); }
   Ogre::UTFString TooltipZoomIn()
-  { return Ogre::UTFString(L"Zoom in"); }
+  { return Ogre::UTFString(L"ズームイン"); }
   Ogre::UTFString TooltipZoomOut()
-  { return Ogre::UTFString(L"Zoom out"); }
+  { return Ogre::UTFString(L"ズームアウト"); }
   Ogre::UTFString TooltipRotateLeft()
-  { return Ogre::UTFString(L"Rotate left"); }
+  { return Ogre::UTFString(L"左に回転"); }
   Ogre::UTFString TooltipRotateRight()
-  { return Ogre::UTFString(L"Rotate right"); }
+  { return Ogre::UTFString(L"右に回転"); }
   Ogre::UTFString TooltipSlower()
-  { return Ogre::UTFString(L"Decrease game speed"); }
+  { return Ogre::UTFString(L"ゲームスピードを遅く"); }
   Ogre::UTFString TooltipFaster()
-  { return Ogre::UTFString(L"Increase game speed"); }
+  { return Ogre::UTFString(L"ゲームスピードを早く"); }
   Ogre::UTFString TooltipPause()
-  { return Ogre::UTFString(L"Pause game"); }
+  { return Ogre::UTFString(L"ゲームを中断"); }
   Ogre::UTFString TooltipPowerNets()
   { return Ogre::UTFString(L"Show power nets"); }
   Ogre::UTFString TooltipMessageArchive()
@@ -255,33 +255,33 @@ public:
   Ogre::UTFString TooltipCapacity()
   { return Ogre::UTFString(L"Capacity: "); }
   Ogre::UTFString TooltipCoalSmall()
-  { return Ogre::UTFString(L"Small coal powerplant"); }
+  { return Ogre::UTFString(L"小さな石炭発電所"); }
   Ogre::UTFString TooltipCoalLarge()
-  { return Ogre::UTFString(L"Large coal powerplant"); }
+  { return Ogre::UTFString(L"大きな石炭発電所"); }
   Ogre::UTFString TooltipGasSmall()
-  { return Ogre::UTFString(L"Small gas powerplant"); }
+  { return Ogre::UTFString(L"小さなガス発電所"); }
   Ogre::UTFString TooltipGasLarge()
-  { return Ogre::UTFString(L"Large gas powerplant"); }
+  { return Ogre::UTFString(L"大きなガス発電所"); }
   Ogre::UTFString TooltipNuclearSmall()
-  { return Ogre::UTFString(L"Small nuclear powerplant"); }
+  { return Ogre::UTFString(L"小さな原子力発電所"); }
   Ogre::UTFString TooltipNuclearLarge()
-  { return Ogre::UTFString(L"Large nuclear powerplant"); }
+  { return Ogre::UTFString(L"大きな原子力発電所"); }
   Ogre::UTFString TooltipNuclearFusion()
-  { return Ogre::UTFString(L"Nuclear fusion powerplant"); }
+  { return Ogre::UTFString(L"核融合発電所"); }
   Ogre::UTFString TooltipSolarSmall()
-  { return Ogre::UTFString(L"Small solar powerplant"); }
+  { return Ogre::UTFString(L"小さな太陽光発電所"); }
   Ogre::UTFString TooltipSolarLarge()
-  { return Ogre::UTFString(L"Large solar powerplant"); }
+  { return Ogre::UTFString(L"大きな太陽光発電所"); }
   Ogre::UTFString TooltipSolarUpdraft()
-  { return Ogre::UTFString(L"Solar updraft powerplant"); }
+  { return Ogre::UTFString(L"太陽光チムニー"); }
   Ogre::UTFString TooltipWindSmall()
-  { return Ogre::UTFString(L"Small wind turbine"); }
+  { return Ogre::UTFString(L"小さな風力発電所"); }
   Ogre::UTFString TooltipWindLarge()
-  { return Ogre::UTFString(L"Large wind turbine"); }
+  { return Ogre::UTFString(L"大きな風力発電所"); }
   Ogre::UTFString TooltipWindOffshore()
-  { return Ogre::UTFString(L"Offshore wind turbine"); }
+  { return Ogre::UTFString(L"洋上風力発電所"); }
   Ogre::UTFString TooltipBio()
-  { return Ogre::UTFString(L"Biomass powerplant"); }
+  { return Ogre::UTFString(L"バイオマス発電所"); }
   Ogre::UTFString TooltipHeadquarters()
   { return Ogre::UTFString(L"Company headquarters"); }
   Ogre::UTFString TooltipResearchBuilding()
@@ -351,11 +351,11 @@ public:
   Ogre::UTFString LoadingPopulace()
   { return Ogre::UTFString(L"Populace"); }
   Ogre::UTFString COCoal()
-  { return Ogre::UTFString(L"Coal: "); }
+  { return Ogre::UTFString(L"石炭: "); }
   Ogre::UTFString COGas()
-  { return Ogre::UTFString(L"Gas: "); }
+  { return Ogre::UTFString(L"天然ガス: "); }
   Ogre::UTFString COUranium()
-  { return Ogre::UTFString(L"Uranium: "); }
+  { return Ogre::UTFString(L"ウラン: "); }
   Ogre::UTFString COKCubicShort()
   { return Ogre::UTFString(L"KCF"); }
   Ogre::UTFString COKTonShort()
