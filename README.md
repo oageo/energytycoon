@@ -1,6 +1,8 @@
 # Energy Tycoon
 Sourceforgeからクローンした、X11ライセンス下の電力供給をするシミュレーションゲームです。
 
+個人的な最適プレイ法は[これ](https://youtu.be/6b3OKBEB5AM)。
+
 以下オリジナル文書
 
 -----------
